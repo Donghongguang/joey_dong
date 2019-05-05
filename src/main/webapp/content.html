@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/team1/main.css">
+	<link rel="stylesheet" type="text/css" href="css/team1/bootstrap5152.css">
+	<link rel="stylesheet" type="text/css" href="css/team1/iconfont.css">
+	
+	<script type="text/javascript" src="../js/team1/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="laydate/team1/laydate.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+    	<!-- Start of Header -->
+    	<div class="header">
+    		<div class="headiv">
+    			<!-- <img src="images/logo3.png" id="logo2"> -->
+    			<span id="wel" >欢迎来到糖果街舞教育平台</span>
+    		</div>
+			<!-- <img src="images/china.png" id="china"> -->
+    		<!-- <img src="images/logo2.png" id="logo1"> -->
+    		
+		</div>
+		<!-- End of Header -->
+		<div class="row-fluid leader">
+				<div class="span12">
+				<div class="navbar">
+					<div class="navbar-inner" id="daohang">
+						<div class="container-fluid top_logo">
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span><span class="icon-bar"></span>
+							</a> 
+							<a class="brand" href="#">
+								<img src="images/logo.png" class="logo">
+							</a>
+								<ul class="nav pull-right">
+									
+									<li class="divider-vertical">
+									</li>
+									<li class="dropdown">
+										<a class="dropdown-toggle xialakuang2" href="#" data-toggle="dropdown">我的信息<strong class="caret"></strong></a>
+										<ul class="dropdown-menu something2">
+											<li>
+												<a href="#">个人信息</a>
+											</li>
+											
+											<li class="divider">
+											</li>
+											<li>
+												<a href="login.html">注销</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+				
+				</div>
+			</div>
+    	</div>
+		
+		<div class="row-fluid con">
+			<div class="contentLeft">
+				<!-- <nav type="0" class="inlineblock allNav"> -->
+		            <ul class="list-unstyled">
+                    <li>
+                        <i class="iconfont icon-caidan1"></i>
+                        <span><a href="#firstPage">首页</a></span>
+                        <i class="iconfont icon-jiantou"></i>  
+
+                    </li>
+                    <li>
+                        <i class="iconfont icon-changjingguanli"></i>
+                        <span><a href="#uploadMovie">上传视频</a></span>
+                        <i class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-jianliyulan_jiaoyujingli"></i>
+                        <span><a href="#myMovie">我的视频</a></span>
+                        <i class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-wo"></i>
+                        <span><a href="#allMovie">视频总部</a></span>
+                        <i class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-tiaoshi"></i>
+                        <span><a href="#userInfo">用户信息</a></span>
+                        <i class="iconfont icon-jiantou"></i>
+                    </li>
+                </ul>
+		        <!-- </nav> -->
+			</div>
+			<div class="contentRight">
+				<!-- -------------------------------------------------------------------- -->
+				<div id="firstpage">
+					<img src="images/wel.png">
+				</div>
+				<div id="uploadMovie">
+					<img src="images/bg1.png" />
+				</div>
+				<div id="myMovie">
+					<img src="images/china.png"/>
+				</div>
+				<div id="allMovie">
+					<img src="images/image1.png" />
+				</div>
+				<div id="userInfo">
+					<img src="images/wel.png" />
+				</div>
+				</div>
+			
+					
+				</div>
+			</div>
+	<script type="text/javascript">
+		$(function(){
+            $(".xialakuang1").hover(function(){
+                $(".something1").toggle();
+            })
+            $(".something1").hover(function(){
+                $(".something1").toggle();
+            })
+            $(".xialakuang2").hover(function(){
+                $(".something2").toggle();
+            })
+            $(".something2").hover(function(){
+                $(".something2").toggle();
+            })
+            $(".contentLeft").height($(window).height()-148);//将div高度设置为窗口高度
+            $(".contentRight").height($(window).height()-148);//将div高度设置为窗口高度
+            // $(".contentLeft li:first").trigger('click');
+    
+        })   
+	</script>
+	<script type="text/javascript">
+		$(function(){
+
+            $("#aaa").click(function(){
+                var aaa = $("#textarea").val();
+            })
+            $("#picture").change(function(){
+                var pic = this.files[0];
+                preview_picture(pic);
+            });
+            function preview_picture(pic){
+                var r1 = new FileReader();
+                r1.readAsDataURL(pic);
+                r1.onload = function(e){
+                    $("#picture img").attr("scr",this.result).show();
+                };
+            };
+        })
+        
+
+        $(function(){
+            $(".tofile").click(function(){
+                $("#picture").click();
+                $("#picture").show();
+            })
+
+          
+
+           
+			
+			//左右页面跳转
+            $(".contentLeft ul").on({
+                click:function(){
+                    console.log("text",$(this));
+                    if($(this).children('span').text()=="首页"){
+                        $(".contentRight #uploadMovie").hide();
+                        $(".contentRight #firstpage").show();
+                        $(".contentRight #myMovie").hide();
+						$(".contentRight #allMovie").hide();
+						$("contentRight #userInfo").hide();
+                        return;
+                    }else if($(this).children('span').text()=="上传视频"){
+                        $(".contentRight #uploadMovie").show();
+                        $(".contentRight #firstpage").hide();
+                        $(".contentRight #myMovie").hide();
+                        $(".contentRight #allMovie").hide();
+                        $("contentRight #userInfo").hide();
+                    }
+                    else if($(this).children('span').text=="我的视频"){
+                       $(".contentRight #uploadMovie").hide();
+                       $(".contentRight #firstpage").hide();
+                       $(".contentRight #myMovie").show();
+                       $(".contentRight #allMovie").hide();
+                       $("contentRight #userInfo").hide();
+                    }
+					else if($(this).children('span').text=="视频总部"){
+						$(".contentRight #uploadMovie").hide();
+						$(".contentRight #firstpage").hide();
+						$(".contentRight #myMovie").hide();
+						$(".contentRight #allMovie").show();
+						$("contentRight #userInfo").hide();
+					}else if($(this).children('span').text=="用户信息"){
+						$(".contentRight #uploadMovie").hide();
+						$(".contentRight #firstpage").hide();
+						$(".contentRight #myMovie").hide();
+						$(".contentRight #allMovie").hide();
+						$("contentRight #userInfo").show();
+                    
+                }
+            },"li");
+           
+        })
+
+    	
+        laydate.render({
+            elem : '#dates_1',
+            showBottom: false,
+            done : function(value, date) {
+
+                console.log('你选择的日期是：' + value + '\n\n获得的对象是'
+                        + JSON.stringify(date));
+            }
+        });
+    
+        laydate.render({
+            elem : '#dates_2',
+            showBottom: false,
+            done : function(value, date) {
+
+                console.log('你选择的日期是：' + value + '\n\n获得的对象是'
+                        + JSON.stringify(date));
+            }
+        });
+    
+        laydate.render({
+            elem : '#dates_3',
+            showBottom: false,
+            done : function(value, date) {
+
+                console.log('你选择的日期是：' + value + '\n\n获得的对象是'
+                        + JSON.stringify(date));
+            }
+        });
+    
+        laydate.render({
+            elem : '#dates_4',
+            showBottom: false,
+            done : function(value, date) {
+
+                console.log('你选择的日期是：' + value + '\n\n获得的对象是'
+                        + JSON.stringify(date));
+            }
+        });
+
+// manage.html
+
+
+
+	</script>
+	<script type="text/javascript">
+		$(function(){
+            var id=4;
+            $("#go1").click(function(){
+                var name = $(this).attr("title");
+                console.log(name);
+                if(name == "隐藏"){
+                    $(".contentLeft").hide();
+                    $(".contentRight").css("width","100%");
+                    $(this).css("left","20px");
+                    $("#go1 i").attr("class","iconfont icon-jiantou_yemian_xiangyou");
+                    name = "显示";
+                }
+                else if(name == "显示"){
+                    $(".contentLeft").show();
+                    $(".contentRight").css("width","76%");
+                    $("#go1 i").attr("class","iconfont icon-jiantou_yemian_xiangzuo");
+                    $(this).css("left","310px");
+                    name = "隐藏";
+                }else{
+                    console.log("dfs");
+                }
+                $(this).attr("title",name);
+            })
+
+            
+        })
+	</script>
+</body>
+</html>

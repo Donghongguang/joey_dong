@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dancer.dao.mapper.TLessontypeMapper">
+  <resultMap id="BaseResultMap" type="com.dancer.entity.TLessontype">
+    <id column="typeId" jdbcType="INTEGER" property="typeid" />
+    <result column="typename" jdbcType="VARCHAR" property="typename" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    typeId, typename
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_lessontype
+    where typeId = #{typeid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll"  resultMap="BaseResultMap">
+    select *
+
+    from t_lessontype
+
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_lessontype
+    where typeId = #{typeid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.dancer.entity.TLessontype">
+    insert into t_lessontype (typeId, typename)
+    values (#{typeid,jdbcType=INTEGER}, #{typename,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.dancer.entity.TLessontype">
+    insert into t_lessontype
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="typeid != null">
+        typeId,
+      </if>
+      <if test="typename != null">
+        typename,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="typeid != null">
+        #{typeid,jdbcType=INTEGER},
+      </if>
+      <if test="typename != null">
+        #{typename,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.dancer.entity.TLessontype">
+    update t_lessontype
+    <set>
+      <if test="typename != null">
+        typename = #{typename,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where typeId = #{typeid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.dancer.entity.TLessontype">
+    update t_lessontype
+    set typename = #{typename,jdbcType=VARCHAR}
+    where typeId = #{typeid,jdbcType=INTEGER}
+  </update>
+</mapper>

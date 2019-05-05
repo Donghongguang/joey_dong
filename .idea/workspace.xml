@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SweetDancer:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bba9d20f-c213-4c3d-95f7-eb1f2687653c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/capgemini/controller/WordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/capgemini/service/Tool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/test/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/sparkSpring-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/jquery/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/kitadmin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/nprogress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/blue-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/blue-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/green-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/green-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/purple-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/purple-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/red-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/css/theme/red-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/hm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/kitadmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/mockjs-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/polyfill.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/spark_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/app.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/cascader/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/exception/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/exception/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/exception/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/form/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/img/Capgemini_new.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/inputnumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/anim.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/auxiliar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/badge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/flow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/laydate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/layer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/laypage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/laytpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/panel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/progress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/table-element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/layui/util.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/select/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/table/teble.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/table/teble2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/table/teble3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/user/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/user/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/layui/views/user/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/webapp/simpleTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/capgemini/controller/WordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/com/capgemini/service/Tool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/m2e-wtp/web-resources/META-INF/maven/com.capgemini/resumeDemo/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/m2e-wtp/web-resources/META-INF/maven/com.capgemini/resumeDemo/pom.xml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SweetDancer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/controller/VideoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3740">
+              <caret line="249" column="34" selection-start-line="249" selection-start-column="34" selection-end-line="249" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/manage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-179">
+              <caret line="93" column="62" lean-forward="true" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TUserLessonMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TUserLessonMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>don</find>
+      <find>视频总部</find>
+      <find>path</find>
+      <find>select</find>
+      <find>append</find>
+      <find>resumes</find>
+      <find>str1</find>
+      <find>视频信息管理</find>
+      <find>lessonurl</find>
+      <find>href</find>
+      <find>video</find>
+      <find>showAudio</find>
+      <find>container</find>
+      <find>show</find>
+      <find>showA</find>
+      <find>style</find>
+      <find>button</find>
+      <find>addToMyAudio</find>
+      <find>管理员</find>
+      <find>myhide</find>
+      <find>我的视频</find>
+      <find>lesson</find>
+      <find>showMy</find>
+      <find>myAudio</find>
+      <find>ShowMy</find>
+      <find>needCheckLesson</find>
+      <find>待审核</find>
+      <find>userinfoPage</find>
+      <find>注册</find>
+      <find>关闭</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TLessontypeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TLessontypeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/LessonTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/controller/TypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/xml/LessonTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/utils/UploadVidio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/xml/TUserLessonService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TUserinfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/utils/GenerateID.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/login/manager.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TLessonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TLessonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/xml/TUserLessonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/TUserLessonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TAdminLessonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/TAdminLessonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/xml/TAdminLessonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TAdminLessonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TUserLessonMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TUserLessonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/LessonService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/service/xml/LessonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dancer/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/manage.html" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SweetDancer Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SweetDancer Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SweetDancer Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SweetDancer Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-75" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557027698291" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.9">
+    <configuration name="GenerateID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dancer.utils.GenerateID" />
+      <module name="SweetDancer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dancer.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="SweetDancer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SweetDancer" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SweetDancer_7" />
+        <option name="HTTP_PORT" value="9090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="29166" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SweetDancer:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GenerateID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bba9d20f-c213-4c3d-95f7-eb1f2687653c" name="Default Changelist" comment="" />
+      <created>1555463897274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555463897274</updated>
+      <workItem from="1555463898643" duration="9280000" />
+      <workItem from="1555569279678" duration="3413000" />
+      <workItem from="1555683935295" duration="1317000" />
+      <workItem from="1555728266318" duration="2755000" />
+      <workItem from="1555897217433" duration="5413000" />
+      <workItem from="1555933225070" duration="2579000" />
+      <workItem from="1555982040580" duration="10359000" />
+      <workItem from="1556026891586" duration="902000" />
+      <workItem from="1556068511194" duration="6250000" />
+      <workItem from="1556173557721" duration="4004000" />
+      <workItem from="1556239914640" duration="5200000" />
+      <workItem from="1556375292145" duration="98000" />
+      <workItem from="1556430092880" duration="13557000" />
+      <workItem from="1556693994944" duration="3088000" />
+      <workItem from="1556770322709" duration="6625000" />
+      <workItem from="1556886554494" duration="2371000" />
+      <workItem from="1556948028764" duration="15811000" />
+      <workItem from="1557020378732" duration="4057000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目初步完成">
+      <created>1557026666841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557026666841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="97079000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.21827" />
+      <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.20210186" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008881" side_tool="true" weight="0.20210186" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.5204263" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5004042" side_tool="true" visible="true" weight="0.3587922" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32983023" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目初步完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初步完成" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TLessontypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TLessontypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/LessonTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login/login.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/entity/TLessontype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+          <folding>
+            <element signature="e#1499#1515#0" expanded="true" />
+            <element signature="e#1553#1566#0" expanded="true" />
+            <element signature="e#1609#1627#0" expanded="true" />
+            <element signature="e#1670#1688#0" expanded="true" />
+            <element signature="e#1766#1785#0" expanded="true" />
+            <element signature="e#1827#1842#0" expanded="true" />
+            <element signature="e#1886#1903#0" expanded="true" />
+            <element signature="e#1977#1992#0" expanded="true" />
+            <element signature="e#2106#2143#0" expanded="true" />
+            <element signature="e#2245#2279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/controller/TypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/utils/Constants.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/utils/UploadVidio.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/utils/GenerateID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TLessonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login/manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TUserinfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TLessonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="59" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/entity/TLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/TestJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/entity/TUserLesson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/xml/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/TUserLessonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/xml/TUserLessonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/xml/TAdminLessonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/TAdminLessonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TAdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="71" lean-forward="true" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/xml/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TAdminLessonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="57" column="65" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/xml/LessonTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/LessonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/service/xml/LessonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TAdminLessonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3740">
+          <caret line="249" column="34" selection-start-line="249" selection-start-column="34" selection-end-line="249" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/xml/TUserLessonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dancer/dao/mapper/TUserLessonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="93" column="62" lean-forward="true" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="134" column="26" lean-forward="true" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SweetDancer:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SweetDancer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.29</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

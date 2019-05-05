@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dancer.dao.mapper.TUserLessonMapper">
+  <resultMap id="BaseResultMap" type="com.dancer.entity.TUserLesson">
+    <id column="tulId" jdbcType="INTEGER" property="tulid" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="lessonId" jdbcType="VARCHAR" property="lessonid" />
+    <result column="useraction" jdbcType="INTEGER" property="useraction" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    tulId, userId, lessonId, useraction
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_user_lesson
+    where tulId = #{tulid,jdbcType=INTEGER}
+  </select>
+
+  <select id="selectAllUserLesson" >
+    select  *
+
+    from t_user_lesson
+
+  </select>
+  <select id="selectUserLesson" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select  *
+
+    from t_user_lesson where userId=#{userid,jdbcType=INTEGER}
+
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_user_lesson
+    where tulId = #{tulid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.dancer.entity.TUserLesson">
+    insert into t_user_lesson (tulId, userId, lessonId, 
+      useraction)
+    values (#{tulid,jdbcType=INTEGER}, #{userid,jdbcType=INTEGER}, #{lessonid,jdbcType=VARCHAR}, 
+      #{useraction,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.dancer.entity.TUserLesson">
+    insert into t_user_lesson
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="tulid != null">
+        tulId,
+      </if>
+      <if test="userid != null">
+        userId,
+      </if>
+      <if test="lessonid != null">
+        lessonId,
+      </if>
+      <if test="useraction != null">
+        useraction,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="tulid != null">
+        #{tulid,jdbcType=INTEGER},
+      </if>
+      <if test="userid != null">
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="lessonid != null">
+        #{lessonid,jdbcType=VARCHAR},
+      </if>
+      <if test="useraction != null">
+        #{useraction,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.dancer.entity.TUserLesson">
+    update t_user_lesson
+    <set>
+      <if test="userid != null">
+        userId = #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="lessonid != null">
+        lessonId = #{lessonid,jdbcType=VARCHAR},
+      </if>
+      <if test="useraction != null">
+        useraction = #{useraction,jdbcType=INTEGER},
+      </if>
+    </set>
+    where tulId = #{tulid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.dancer.entity.TUserLesson">
+    update t_user_lesson
+    set userId = #{userid,jdbcType=INTEGER},
+      lessonId = #{lessonid,jdbcType=VARCHAR},
+      useraction = #{useraction,jdbcType=INTEGER}
+    where tulId = #{tulid,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dancer.dao.mapper.TLessonMapper">
+  <resultMap id="BaseResultMap" type="com.dancer.entity.TLesson">
+    <id column="lessonId" jdbcType="VARCHAR" property="lessonid" />
+    <result column="lessonname" jdbcType="VARCHAR" property="lessonname" />
+    <result column="lessontime" jdbcType="DATE" property="lessontime" />
+    <result column="lessonprice" jdbcType="REAL" property="lessonprice" />
+    <result column="lessonstatus" jdbcType="INTEGER" property="lessonstatus" />
+    <result column="lessontypeId" jdbcType="INTEGER" property="lessontypeid" />
+    <result column="lessonurl" jdbcType="VARCHAR" property="lessonurl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    lessonId, lessonname, lessontime, lessonprice, lessonstatus, lessontypeId, lessonurl
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_lesson
+    where lessonId = #{lessonid,jdbcType=VARCHAR}
+  </select>
+  <select id="selectAllLesson"  resultMap="BaseResultMap">
+    select *
+
+    from t_lesson
+
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from t_lesson
+    where lessonId = #{lessonid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.dancer.entity.TLesson">
+    insert into t_lesson (lessonId, lessonname, lessontime, 
+      lessonprice, lessonstatus, lessontypeId, 
+      lessonurl)
+    values (#{lessonid,jdbcType=VARCHAR}, #{lessonname,jdbcType=VARCHAR}, #{lessontime,jdbcType=DATE}, 
+      #{lessonprice,jdbcType=REAL}, #{lessonstatus,jdbcType=INTEGER}, #{lessontypeid,jdbcType=INTEGER}, 
+      #{lessonurl,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.dancer.entity.TLesson">
+    insert into t_lesson
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="lessonid != null">
+        lessonId,
+      </if>
+      <if test="lessonname != null">
+        lessonname,
+      </if>
+      <if test="lessontime != null">
+        lessontime,
+      </if>
+      <if test="lessonprice != null">
+        lessonprice,
+      </if>
+      <if test="lessonstatus != null">
+        lessonstatus,
+      </if>
+      <if test="lessontypeid != null">
+        lessontypeId,
+      </if>
+      <if test="lessonurl != null">
+        lessonurl,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="lessonid != null">
+        #{lessonid,jdbcType=VARCHAR},
+      </if>
+      <if test="lessonname != null">
+        #{lessonname,jdbcType=VARCHAR},
+      </if>
+      <if test="lessontime != null">
+        #{lessontime,jdbcType=DATE},
+      </if>
+      <if test="lessonprice != null">
+        #{lessonprice,jdbcType=REAL},
+      </if>
+      <if test="lessonstatus != null">
+        #{lessonstatus,jdbcType=INTEGER},
+      </if>
+      <if test="lessontypeid != null">
+        #{lessontypeid,jdbcType=INTEGER},
+      </if>
+      <if test="lessonurl != null">
+        #{lessonurl,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.dancer.entity.TLesson">
+    update t_lesson
+    <set>
+      <if test="lessonname != null">
+        lessonname = #{lessonname,jdbcType=VARCHAR},
+      </if>
+      <if test="lessontime != null">
+        lessontime = #{lessontime,jdbcType=DATE},
+      </if>
+      <if test="lessonprice != null">
+        lessonprice = #{lessonprice,jdbcType=REAL},
+      </if>
+      <if test="lessonstatus != null">
+        lessonstatus = #{lessonstatus,jdbcType=INTEGER},
+      </if>
+      <if test="lessontypeid != null">
+        lessontypeId = #{lessontypeid,jdbcType=INTEGER},
+      </if>
+      <if test="lessonurl != null">
+        lessonurl = #{lessonurl,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where lessonId = #{lessonid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.dancer.entity.TLesson">
+    update t_lesson
+    set lessonname = #{lessonname,jdbcType=VARCHAR},
+      lessontime = #{lessontime,jdbcType=DATE},
+      lessonprice = #{lessonprice,jdbcType=REAL},
+      lessonstatus = #{lessonstatus,jdbcType=INTEGER},
+      lessontypeId = #{lessontypeid,jdbcType=INTEGER},
+      lessonurl = #{lessonurl,jdbcType=VARCHAR}
+    where lessonId = #{lessonid,jdbcType=VARCHAR}
+  </update>
+</mapper>

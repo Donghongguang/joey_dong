@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dancer.dao.mapper.TUserinfoMapper">
+  <resultMap id="BaseResultMap" type="com.dancer.entity.TUserinfo">
+    <id column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="realname" jdbcType="VARCHAR" property="realname" />
+    <result column="roleId" jdbcType="INTEGER" property="roleid" />
+    <result column="score" jdbcType="REAL" property="score" />
+    <result column="accountmoney" jdbcType="REAL" property="accountmoney" />
+    <result column="sex" jdbcType="VARCHAR" property="sex" />
+    <result column="age" jdbcType="VARCHAR" property="age" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+  </resultMap>
+  <!--<resultMap id="BloBsResult" type="com.dancer.entity.TUserinfo">-->
+    <!--<constructor>-->
+      <!--<idArg column="userId" javaType="java.lang.Integer" jdbcType="INTEGER"/>-->
+      <!--<arg column="username" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+      <!--<arg column="password" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+      <!--<arg column="realname" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+      <!--<arg column="roleId" javaType="java.lang.Integer" jdbcType="INTEGER"/>-->
+      <!--<arg column="score" javaType="java.lang.Float" jdbcType="REAL" />-->
+      <!--<arg column="accountmoney" javaType="java.lang.Float" jdbcType="REAL"/>-->
+      <!--<arg column="sex" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+      <!--<arg column="age" javaType="java.lang.Integer" jdbcType="INTEGER"/>-->
+      <!--<arg column="telephone" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+      <!--<arg column="address" javaType="java.lang.String" jdbcType="VARCHAR"/>-->
+    <!--</constructor>-->
+  <!--</resultMap>-->
+  <sql id="Base_Column_List">
+    userId, username, password, realname, roleId, score, accountmoney, sex, age, telephone, 
+    address
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_userinfo
+    where userId = #{userid,jdbcType=INTEGER}
+  </select>
+
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select *
+    from t_userinfo
+  </select>
+  <select id="selectByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_userinfo
+    where username = #{username,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_userinfo
+    where userId = #{userid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.dancer.entity.TUserinfo">
+    insert into t_userinfo ( username, password,
+      realname, roleId,  sex, age,
+      telephone, address)
+    values ( #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+      #{realname,jdbcType=VARCHAR}, #{roleid,jdbcType=INTEGER},  #{sex,jdbcType=VARCHAR}, #{age,jdbcType=VARCHAR},
+      #{telephone,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.dancer.entity.TUserinfo">
+    insert into t_userinfo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="userid != null">
+        userId,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="realname != null">
+        realname,
+      </if>
+      <if test="roleid != null">
+        roleId,
+      </if>
+      <if test="score != null">
+        score,
+      </if>
+      <if test="accountmoney != null">
+        accountmoney,
+      </if>
+      <if test="sex != null">
+        sex,
+      </if>
+      <if test="age != null">
+        age,
+      </if>
+      <if test="telephone != null">
+        telephone,
+      </if>
+      <if test="address != null">
+        address,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="userid != null">
+        #{userid,jdbcType=INTEGER},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="realname != null">
+        #{realname,jdbcType=VARCHAR},
+      </if>
+      <if test="roleid != null">
+        #{roleid,jdbcType=INTEGER},
+      </if>
+      <if test="score != null">
+        #{score,jdbcType=REAL},
+      </if>
+      <if test="accountmoney != null">
+        #{accountmoney,jdbcType=REAL},
+      </if>
+      <if test="sex != null">
+        #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        #{age,jdbcType=VARCHAR},
+      </if>
+      <if test="telephone != null">
+        #{telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        #{address,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.dancer.entity.TUserinfo">
+    update t_userinfo
+    <set>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="realname != null">
+        realname = #{realname,jdbcType=VARCHAR},
+      </if>
+      <if test="roleid != null">
+        roleId = #{roleid,jdbcType=INTEGER},
+      </if>
+      <if test="score != null">
+        score = #{score,jdbcType=REAL},
+      </if>
+      <if test="accountmoney != null">
+        accountmoney = #{accountmoney,jdbcType=REAL},
+      </if>
+      <if test="sex != null">
+        sex = #{sex,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null">
+        age = #{age,jdbcType=VARCHAR},
+      </if>
+      <if test="telephone != null">
+        telephone = #{telephone,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null">
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where userId = #{userid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.dancer.entity.TUserinfo">
+    update t_userinfo
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      realname = #{realname,jdbcType=VARCHAR},
+      roleId = #{roleid,jdbcType=INTEGER},
+      score = #{score,jdbcType=REAL},
+      accountmoney = #{accountmoney,jdbcType=REAL},
+      sex = #{sex,jdbcType=VARCHAR},
+      age = #{age,jdbcType=VARCHAR},
+      telephone = #{telephone,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR}
+    where userId = #{userid,jdbcType=INTEGER}
+  </update>
+</mapper>

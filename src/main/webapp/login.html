@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>登陆界面</title>
+	<link rel="stylesheet" type="text/css" href="css/team1/main.css">
+	<link rel="stylesheet" type="text/css" href="css/team1/bootstrap5152.css">
+
+
+</head>
+<body>
+	<!-- Start of Header -->
+    
+    <!-- End of Header -->
+    <div class="container-fluid">
+    	<div class="header">
+    		<div class="headiv">
+    			<!-- <img src="images/logo3.png" id="logo2"> -->
+    			<span id="wel">欢迎来到糖果街舞教育平台</span>
+    		</div>
+		</div>
+		<div class="row-fluid leader">
+				<div class="span12">
+					<div class="navbar">
+						<div class="navbar-inner" id="daohang">
+							<div class="container-fluid top_logo">
+								<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span><span class="icon-bar"></span>
+								</a>
+								<a class="brand" href="#">
+									<img src="images/logo.png" class="logo">
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+    	</div>
+		<div id="login-bg" style="height: 800px;width: 100%;background-color: #0070ad;border-radius: 5px;margin-top: -22px">
+			<div style="height: 40px"></div>
+			<div id="login-body" style="height: 420px;width: 500px;background-color: #fff;margin:0 auto;margin-top: 20px;border-radius: 5px;color: black;font-size: 18px;padding-right: 20px">
+				<br><h3 style="text-align: center">登录</h3>
+				<form class="form-horizontal" action="content.html">
+					<div class="control-group">
+						<label class="control-label" for="userName" >用户名</label>
+						<div class="controls">
+							<input id="userName" type="text" />
+						</div>
+					</div>
+					<div class="control-group">
+						 <label class="control-label" for="inputPassword" style="padding-top: 25px">密码</label>
+						<div class="controls">
+							<input id="inputPassword" type="password" />
+						</div>
+					</div>
+
+					<!--<div class="control-group">-->
+						<!--<label class="control-label" for="inputPassword" style="padding-top: 25px;">验证码</label>-->
+						<!--<div class="controls">-->
+							<!--<input type="text" id="L_loginName" name="checknum" style="width: 35%; margin-top: 20px;float: left">-->
+							<!--<div class="layui-input-inline" id="v_container"-->
+								<!--style="width: 30%;margin-left: 0px;height: 100%; margin-top: 20px; float: left;margin-left:1%"></div>-->
+						<!--</div>-->
+					<!--</div>-->
+						<div class="control-group">
+							&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="usertype" class="layui-input-inline" value="1">&emsp;&emsp;<span>顾客</span>
+							&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="usertype" class="layui-input-inline" value="2">&emsp;<span>管理员</span>
+						</div>
+					<div class="control-group">
+						<div class="controls">
+							<button class="btn log" id="loginbutton" type="button">登录</button>&emsp;&emsp;&emsp;&emsp;
+							<button class="btn log" id="registerbutton" type="reset">重置</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<!--<div id="registerUser" class="modal">-->
+	<!--<lable for="username">用户名</lable>-->
+	<!--<input type="text" id="registerUserName" />-->
+<!--</div>-->
+</body>
+<!--<script src="gVerify.js"></script>-->
+<!--<script>-->
+	<!--var verifyCode = new GVerify("v_container");-->
+
+	<!--document.getElementById("my_button").onclick = function() {-->
+		<!--var res = verifyCode-->
+				<!--.validate(document.getElementById("L_loginName").value);-->
+		<!--if (true) {-->
+			<!--alert("验证正确");-->
+			<!--if((document.getElementById("inputEmail").value=="admin")&&(document.getElementById("inputPassword").value=="admin")){-->
+				<!--alert("admin");-->
+				<!--setTimeout("javascript:location.href='manage.html'", 0);-->
+			<!--}else if((document.getElementById("inputEmail").value=="cust")&&(document.getElementById("inputPassword").value=="cust")){-->
+				<!--alert("customer");-->
+				<!--setTimeout("javascript:location.href='content.html'", 0);-->
+			<!--}-->
+		<!--} else {-->
+			<!--alert("验证码错误");-->
+			<!--return false;-->
+		<!--}-->
+	<!--}-->
+<!--</script>-->
+<script type="text/javascript" src="js/Team1/jquery-3.3.1.min.js" ></script>
+<script type="text/javascript" language="JavaScript" charset="UTF-8" src="js/login/login.js" ></script>
+</html>
